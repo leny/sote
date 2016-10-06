@@ -6,32 +6,11 @@
 
 **sote** is like a perpetual `pushd` : he stores your favorites system paths, so you can jump to it by typing `sote <name>`.
 
+> **Note:** the current repo is a _fork_ to rewrite sote with `golang`.
+
 ## Installation
-**sote** embeds his own installation procedure. You can use one of the commands below to install it on your system :
 
-> **WARNING:** sote is currently not compatible with zsh. A fixed version will come soon.
-
-### Install with `curl`
-
-
-```bash
-curl -sS https://raw.githubusercontent.com/krkn/sote/master/bin/sote | bash
-```
-
-### Install with `wget`
-
-```bash
-wget -q -O - https://raw.githubusercontent.com/krkn/sote/master/bin/sote | bash
-```
-
-### Manually from GIT repo
-
-```bash
-git clone https://github.com/krkn/sote ~/.sote && ~/.sote/bin/sote
-```
-
-If you want change the "Sote Store" location (~/.sote-store), edit the Sote script and change `SOTE_STORE` variable.
-
+_TODO_
 
 ## Usage
 
@@ -74,5 +53,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## License
 
-Copyright (c) 2014 krkn  
+Copyright (c) 2014 krkn, forked in 2016 by leny  
 Licensed under the MIT license.
